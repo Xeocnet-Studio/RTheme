@@ -18,3 +18,13 @@ Date.prototype.format = function (fmt) {
 var now = new Date();
 var nowStr = now.format("yyyy");
 document.getElementById("year").innerHTML = new Date().format("yyyy");
+
+// Baidu Statistics
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2463b16e471159a3c49025a4bb3f2ba2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
