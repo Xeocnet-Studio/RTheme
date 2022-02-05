@@ -37,6 +37,42 @@
     }
 }
 
+span {
+    position: relative;
+    animation-name: startloadingspan;
+    animation-duration: 0.5s;
+    color: #111111,
+}
+
+@keyframes startloadingspan {
+    0% {
+        color: #111111;
+        opacity: 0;
+    }
+    100% {
+        color: #ffffff;
+        opacity: 1;
+    }
+}
+
+span#active {
+    position: relative;
+    animation-name: endloadingspan;
+    animation-duration: 0.5s;
+    color: #111111;
+    animation-fill-mode: forwards;
+}
+
+@keyframes endloadingspan {
+    0% {
+        color: #ffffff;
+        opacity: 1;
+    }
+    100% {
+        color: #111111;
+        opacity: 0;
+    }
+}
 
 .logoimg:hover {
     position: relative;
