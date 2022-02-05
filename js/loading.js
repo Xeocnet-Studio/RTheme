@@ -1,3 +1,13 @@
+// Baidu Statistics
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2463b16e471159a3c49025a4bb3f2ba2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
 //图片懒加载
 var aImages = new Array();
 var aImages_t = new Array();
